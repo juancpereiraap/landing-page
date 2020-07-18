@@ -42,10 +42,11 @@ h2{
 
 .icono{
     background-color: var(--primario);
-    border-radius: 50%;
+    border-radius: 50% 50% 0 50%;
     display: inline-block;
     
 }
+
 /* Framework propio */
 
 .contenedor{
@@ -210,6 +211,10 @@ h2{
 
 .sobre-nosotros .icono-nosotros{
     padding: 3rem 2rem;
+}
+.sobre-nosotros .icono-sencillo{
+    padding: 2.5rem;
+    min-width: 9rem;
 }
 .entrada{
     padding: 3rem;
